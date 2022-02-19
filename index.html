@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!--== Styleseet ======-->
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/lightbox.min.css">
+    <!--== Favicon ======-->
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <!--== font =======-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section id="project">
+        <div class="project-heading">
+            <span>Some of my works</span>
+            <h3>MY Projects</h3>
+        </div>
+
+        <ul class="project-filter">
+            <li class="list project-filter-active" data-filter="all">Home</li>
+            <li class="list" data-filter="jsp">JSP</li>
+            <li class="list" data-filter="jsf">JSF</li>
+            <li class="list" data-filter="thymeleaf">Thymeleaf</li>
+            <li class="list" data-filter="spring">Spring</li>
+            <li class="list" data-filter="api">API</li>
+        </ul>
+        <!--== Container ======-->
+        <div class="project-container">
+            <!--== box1 ======-->
+            <a href="img/coffee1.png" class="project-box jsp" data-lightbox="work">
+                <img src="img/coffee1.png" alt="coffee1">
+            </a>
+
+            <!--== box2 ======-->
+            <a href="img/coffee2.png" class="project-box jsf" data-lightbox="work">
+                <img src="img/coffee2.png" alt="coffee2">
+            </a>
+
+            <!--== box3 ======-->
+            <a href="img/coffee3.png" class="project-box thymeleaf" data-lightbox="work">
+                <img src="img/coffee3.png" alt="coffee3">
+            </a>
+
+            <!--== box4 ======-->
+            <a href="img/coffee4.png" class="project-box spring" data-lightbox="work">
+                <img src="img/coffee4.png" alt="coffee4">
+            </a>
+
+            <!--== box5 ======-->
+            <a href="img/coffee5.png" class="project-box api" data-lightbox="work">
+                <img src="img/coffee5.png" alt="coffee5">
+            </a>
+
+
+        </div>
+
+    </section>
+
+    <!--== Jquery ======-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
